@@ -23,31 +23,102 @@
       <p class="subtitle">MoodGrid</p>
       <p class="last-updated">Última actualización: Diciembre 2025</p>
 
-      <!-- AQUÍ VA TU CONTENIDO DE POLÍTICA DE PRIVACIDAD -->
       <h2>1. Introducción</h2>
-      <p>[Tu texto aquí]</p>
+      <p>La privacidad de nuestros usuarios es fundamental. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y qué derechos tienes sobre tus datos personales.</p>
 
       <h2>2. Información que Recopilamos</h2>
-      <p>[Tu texto aquí]</p>
+      <h3>Información proporcionada por el usuario</h3>
+      <ul>
+        <li><strong>Cuenta de usuario:</strong> Dirección de correo electrónico y contraseña (almacenados de forma segura mediante Firebase Authentication).</li>
+      </ul>
 
-      <h2>3. Uso de la Información</h2>
-      <p>[Tu texto aquí]</p>
+      <h2>3. Almacenamiento de Datos</h2>
+      <h3>Almacenamiento Local</h3>
+      <ul>
+        <li>Los registros de estado de ánimo se almacenan localmente en tu dispositivo mediante SQLite.</li>
+        <li>Los datos locales están protegidos por las medidas de seguridad del sistema operativo de tu dispositivo.</li>
+        <li>Implementamos un sistema de bloqueo con autenticación biométrica o PIN para proteger el acceso a la aplicación.</li>
+      </ul>
 
-      <h2>4. Almacenamiento de Datos</h2>
-      <p>[Tu texto aquí]</p>
+      <h3>Almacenamiento en la Nube</h3>
+      <ul>
+        <li>Los datos de autenticación se almacenan en Firebase Authentication (Google Cloud).</li>
+      </ul>
 
-      <h2>5. Compartir Información</h2>
-      <p>[Tu texto aquí]</p>
+      <h2>4. Compartir Información con Terceros</h2>
+      <p>No vendemos, alquilamos ni compartimos tu información personal con terceros con fines comerciales.</p>
+      <p>Los únicos servicios de terceros que procesan datos son Firebase (Google) para autenticación y notificaciones push.</p>
+      <ul>
+        <li><a href="https://firebase.google.com/support/privacy" target="_blank">Política de Privacidad de Firebase</a></li>
+        <li><a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank">Políticas de Google Cloud</a></li>
+      </ul>
 
-      <h2>6. Seguridad</h2>
-      <p>[Tu texto aquí]</p>
+      <h2>5. Exportación e Importación de Datos</h2>
+      <ul>
+        <li>Puedes exportar todos tus registros de estado de ánimo en formato JSON en cualquier momento.</li>
+        <li>La función de exportación te permite crear copias de seguridad de tus datos.</li>
+        <li>La función de importación te permite restaurar datos desde archivos de respaldo.</li>
+        <li>Estos archivos se comparten mediante las funciones nativas de tu dispositivo y nosotros no tenemos acceso a ellos.</li>
+      </ul>
 
-      <h2>7. Derechos del Usuario</h2>
-      <p>[Tu texto aquí]</p>
+      <h2>6. Retención de Datos</h2>
+      <ul>
+        <li><strong>Datos locales:</strong> Se conservan en tu dispositivo hasta que los elimines manualmente o desinstales la aplicación.</li>
+        <li><strong>Cuenta de usuario:</strong> Se conserva mientras mantengas tu cuenta activa.</li>
+      </ul>
 
-      <h2>8. Contacto</h2>
-      <p>[Tu texto aquí]</p>
-      <!-- FIN DEL CONTENIDO -->
+      <h2>7. Eliminación de Datos</h2>
+      <p>Tienes derecho a eliminar tus datos en cualquier momento:</p>
+      <ul>
+        <li>Eliminar registros individuales desde la interfaz de la aplicación.</li>
+        <li>Eliminar todos los registros mediante la opción "Eliminar todos los datos" en la configuración.</li>
+        <li><strong>Eliminar cuenta:</strong> Al eliminar tu cuenta de Firebase, se eliminan permanentemente tu dirección de correo electrónico, tus credenciales de autenticación y los datos asociados a tu cuenta en la nube.</li>
+      </ul>
+      <p><strong>Nota:</strong> Los datos almacenados localmente en tu dispositivo deben eliminarse manualmente desde la aplicación antes de eliminar la cuenta, o al desinstalar la aplicación.</p>
+
+      <h2>8. Seguridad de los Datos</h2>
+      <p>Implementamos medidas de seguridad técnicas y organizativas para proteger tus datos:</p>
+      <ul>
+        <li>Cifrado en tránsito mediante HTTPS/TLS.</li>
+        <li>Cifrado en reposo de los datos en Firebase.</li>
+        <li>Almacenamiento seguro local utilizando Flutter Secure Storage para datos sensibles.</li>
+        <li>Autenticación segura con Firebase Authentication y hash de contraseñas.</li>
+        <li>Bloqueo de aplicación mediante autenticación biométrica o PIN.</li>
+      </ul>
+      <p><strong>Importante:</strong> Ningún sistema es 100% seguro. Aunque implementamos las mejores prácticas de seguridad, no podemos garantizar la seguridad absoluta de tus datos.</p>
+
+      <h2>9. Privacidad de Menores</h2>
+      <p>MoodGrid no está dirigida a menores de 13 años. No recopilamos intencionalmente información personal de menores de 13 años. Si descubrimos que hemos recopilado datos de un menor de 13 años, eliminaremos esa información inmediatamente.</p>
+
+      <h2>10. Tus Derechos</h2>
+      <p>Según las leyes de protección de datos aplicables (GDPR, CCPA, etc.), tienes derecho a:</p>
+      <ul>
+        <li>Solicitar acceso a tus datos.</li>
+        <li>Rectificación de datos inexactos.</li>
+        <li>Eliminación de tus datos.</li>
+        <li>Portabilidad en formato JSON.</li>
+        <li>Oposición al procesamiento para ciertos fines.</li>
+        <li>Limitación del procesamiento.</li>
+      </ul>
+      <p>Para ejercer estos derechos, contacta con nosotros en <a href="mailto:hveitia86@gmail.com">hveitia86@gmail.com</a></p>
+
+      <h2>11. Transferencias Internacionales de Datos</h2>
+      <p>Los datos procesados por Firebase pueden transferirse y almacenarse en servidores ubicados fuera de tu país de residencia, incluidos Estados Unidos. Google cumple con los marcos de privacidad aplicables para transferencias internacionales de datos.</p>
+
+      <h2>12. Cookies y Tecnologías de Seguimiento</h2>
+      <p>MoodGrid no utiliza cookies web. Firebase Analytics puede utilizar identificadores de dispositivo para análisis, pero estos datos son anónimos y agregados.</p>
+
+      <h2>13. Cambios a esta Política de Privacidad</h2>
+      <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos de cambios significativos mediante:</p>
+      <ul>
+        <li>Una notificación en la aplicación.</li>
+        <li>Un correo electrónico (si has proporcionado uno).</li>
+        <li>Actualizando la fecha de "Última actualización" en este documento.</li>
+      </ul>
+      <p>El uso continuado de la aplicación después de los cambios constituye tu aceptación de la nueva política.</p>
+
+      <h2>14. Contacto</h2>
+      <p>Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en <a href="mailto:hveitia86@gmail.com">hveitia86@gmail.com</a></p>
 
     </div>
   </main>
