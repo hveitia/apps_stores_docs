@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad - Xari Crud</title>
+  <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="../../index.html" class="logo">Legal Docs</a>
+      <nav>
+        <a href="privacy-policy.html">Privacidad</a>
+        <a href="terms-and-conditions.html">Términos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Política de Privacidad</h1>
+      <p class="subtitle">Xari Crud</p>
+      <p class="last-updated">Última actualización: Marzo 2026</p>
+
+      <h2>1. Introducción</h2>
+      <p>La privacidad de nuestros usuarios es fundamental. Esta Política de Privacidad explica qué información recopilamos, cómo la usamos y qué derechos tienes sobre tus datos personales al usar Xari Crud, un cliente móvil CRUD dinámico que se conecta a backends XAF Web API.</p>
+
+      <h2>2. Información que Recopilamos</h2>
+      <h3>Información proporcionada por el usuario</h3>
+      <ul>
+        <li><strong>URL del servidor:</strong> La dirección del servidor XAF Web API que configuras para conectarte. Se almacena de forma segura en el dispositivo mediante almacenamiento seguro (Secure Storage).</li>
+        <li><strong>Credenciales de autenticación:</strong> Nombre de usuario y contraseña que proporcionas para autenticarte en el servidor XAF. Estas credenciales se envían al backend para obtener un token JWT y <strong>no se almacenan permanentemente</strong> en el dispositivo.</li>
+        <li><strong>Token de autenticación (JWT):</strong> El token obtenido del servidor se almacena en el almacenamiento seguro del dispositivo para mantener la sesión activa.</li>
+      </ul>
+
+      <h3>Información generada por el uso</h3>
+      <ul>
+        <li><strong>Preferencias de la aplicación:</strong> Configuraciones como el tema visual y la visibilidad de entidades. Se almacenan localmente en el dispositivo.</li>
+      </ul>
+
+      <h3>Información que NO recopilamos</h3>
+      <ul>
+        <li>Ubicación del dispositivo.</li>
+        <li>Fotos, archivos multimedia o contactos.</li>
+        <li>Identificadores del dispositivo.</li>
+        <li>Datos de uso, analíticas o métricas.</li>
+      </ul>
+
+      <h2>3. Almacenamiento de Datos</h2>
+      <h3>Almacenamiento Local</h3>
+      <ul>
+        <li>La URL del servidor y el token JWT se almacenan en el almacenamiento seguro del dispositivo (Secure Storage), protegido por las medidas de seguridad del sistema operativo.</li>
+        <li>Las preferencias de la aplicación (tema, visibilidad de entidades) se almacenan localmente en el dispositivo.</li>
+        <li>Xari Crud no mantiene una base de datos local de los registros del servidor. Los datos se consultan en tiempo real desde el backend XAF.</li>
+      </ul>
+
+      <h3>Almacenamiento en la Nube</h3>
+      <ul>
+        <li>Xari Crud <strong>no utiliza servicios en la nube propios</strong>.</li>
+        <li>Toda la comunicación de datos ocurre exclusivamente entre la aplicación y el servidor XAF Web API configurado por el usuario.</li>
+        <li>El almacenamiento y procesamiento de los datos de negocio es responsabilidad del servidor XAF y su administrador.</li>
+      </ul>
+
+      <h2>4. Comunicación con Terceros</h2>
+      <p>Xari Crud <strong>no envía datos a servicios de terceros</strong>. Específicamente:</p>
+      <ul>
+        <li>No utiliza Firebase ni ningún servicio de Google Cloud.</li>
+        <li>No incluye SDKs de analíticas ni reportes de errores.</li>
+        <li>No contiene publicidad ni SDKs publicitarios.</li>
+        <li>Los controles de UI de DevExpress MAUI se ejecutan exclusivamente en el lado del cliente y no transmiten datos a DevExpress.</li>
+      </ul>
+      <p>La <strong>única comunicación externa</strong> es con el servidor XAF Web API que tú configuras, y se realiza exclusivamente mediante conexiones HTTPS cifradas.</p>
+
+      <h2>5. Seguridad de los Datos</h2>
+      <p>Implementamos las siguientes medidas de seguridad:</p>
+      <ul>
+        <li>Cifrado en tránsito mediante HTTPS/TLS para toda comunicación con el servidor XAF.</li>
+        <li>Almacenamiento seguro del dispositivo (Secure Storage) para credenciales y tokens.</li>
+        <li>Las contraseñas no se almacenan permanentemente; solo el token JWT se conserva en el dispositivo.</li>
+        <li>El token JWT tiene una vigencia limitada definida por el servidor XAF.</li>
+      </ul>
+      <p><strong>Importante:</strong> La seguridad de los datos de negocio depende de la configuración del servidor XAF al que te conectes. Asegúrate de conectarte únicamente a servidores de confianza con certificados SSL válidos.</p>
+
+      <h2>6. Retención de Datos</h2>
+      <ul>
+        <li><strong>Token JWT:</strong> Se conserva hasta que cierres sesión, expire el token o desinstales la aplicación.</li>
+        <li><strong>URL del servidor:</strong> Se conserva hasta que la cambies o desinstales la aplicación.</li>
+        <li><strong>Preferencias:</strong> Se conservan hasta que las modifiques o desinstales la aplicación.</li>
+      </ul>
+
+      <h2>7. Eliminación de Datos</h2>
+      <p>Puedes eliminar tus datos en cualquier momento:</p>
+      <ul>
+        <li>Cerrar sesión elimina el token JWT del almacenamiento seguro.</li>
+        <li>Desinstalar la aplicación elimina todos los datos locales (URL del servidor, token, preferencias).</li>
+      </ul>
+      <p><strong>Nota:</strong> Los datos almacenados en el servidor XAF son gestionados por el administrador del servidor y están fuera del alcance de esta aplicación.</p>
+
+      <h2>8. Privacidad de Menores</h2>
+      <p>Xari Crud no está dirigida a menores de 13 años. No recopilamos intencionalmente información personal de menores de 13 años. Si descubrimos que hemos recopilado datos de un menor de 13 años, eliminaremos esa información inmediatamente.</p>
+
+      <h2>9. Tus Derechos</h2>
+      <p>Según las leyes de protección de datos aplicables (GDPR, CCPA, etc.), tienes derecho a:</p>
+      <ul>
+        <li>Solicitar información sobre qué datos almacena la aplicación.</li>
+        <li>Eliminación de tus datos locales (mediante cierre de sesión o desinstalación).</li>
+        <li>Oposición al procesamiento para ciertos fines.</li>
+      </ul>
+      <p>Dado que Xari Crud almacena datos exclusivamente en tu dispositivo y no en servidores propios, tienes control total sobre tus datos en todo momento.</p>
+      <p>Para ejercer estos derechos o realizar consultas, contacta con nosotros en <a href="mailto:hveitia86@gmail.com">hveitia86@gmail.com</a></p>
+
+      <h2>10. Transferencias Internacionales de Datos</h2>
+      <p>Xari Crud no transfiere datos a servidores propios. La comunicación ocurre únicamente con el servidor XAF configurado por el usuario. La ubicación y jurisdicción de dicho servidor es responsabilidad del usuario y del administrador del servidor.</p>
+
+      <h2>11. Cookies y Tecnologías de Seguimiento</h2>
+      <p>Xari Crud no utiliza cookies, tecnologías de seguimiento, identificadores de dispositivo ni herramientas de analítica de ningún tipo.</p>
+
+      <h2>12. Cambios a esta Política de Privacidad</h2>
+      <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos de cambios significativos mediante:</p>
+      <ul>
+        <li>Una notificación en la aplicación.</li>
+        <li>Actualizando la fecha de "Última actualización" en este documento.</li>
+      </ul>
+      <p>El uso continuado de la aplicación después de los cambios constituye tu aceptación de la nueva política.</p>
+
+      <h2>13. Contacto</h2>
+      <p>Si tienes preguntas sobre esta Política de Privacidad, puedes contactarnos en <a href="mailto:hveitia86@gmail.com">hveitia86@gmail.com</a></p>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
